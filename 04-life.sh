@@ -19,7 +19,7 @@ echo "Is it the morning, or is not the morning?"
 read morning
 
 if [ " $morning" -eq 6 ]; then
-   echo "It is 6 o'clock in the morning!"
+   echo "Welcome! you are awake at 6am "
 else 
-   echo "You are still living the afternoon :("
+   echo "You are not living in the morning! "
 fi
